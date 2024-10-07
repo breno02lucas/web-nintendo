@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;    
+    font-family: "roboto";
+}
+
+header{
+    width: 100vw;
+    height: 7vh;
+    border: 0 0 1px 0 solid grey;
+}
+
+header #cab-esquerda, header #cab-direita{
+    float: left;
+    width: 49.9vw;
+}
+
+header #cab-direita{    
+    text-align: right;
+}
+
+header #cab-esquerda img{
+    height: 7vh;
+}
+
+header #cab-direita li{
+    display: inline-block;
+    margin-left: 1vw;
+    line-height: 7vh;
+}
+
+header #cab-direita li a{
+    font-weight: 600;
+    color: #484848;
+}
+
+header #cab-direita li a span{
+    position: relative;
+    top: 0.7vh;
+}
+
+header #cab-direita li:last-child a span{
+    top: 0.9vh;
+    margin-right: 1vw;
+}
+
+#banner-principal{
+    float: left;
+    background-color: #e60012;
+}
+
+#banner-principal #banner-principal2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+#banner-principal #cta-inicio{
+    margin: 0 2vw;
+    padding: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2vh;
+    color: white;
+}
+
+#banner-principal #cta-inicio h1{
+    margin-bottom: 2vh;
+    font-size: 2.5rem;
+}
+
+#banner-principal #cta-inicio p{
+    font-weight: 350;
+}
